@@ -29,7 +29,7 @@ emailTitle = pyip.inputStr("Email title:\n")
 options = EdgeOptions()
 
 # Option that doesn't close browser after script finishes
-# options.add_experimental_option("detach", True)
+options.add_experimental_option("detach", True)
 
 website = webdriver.Edge(options=options)
 website.get("https://mail.google.com/mail/")
