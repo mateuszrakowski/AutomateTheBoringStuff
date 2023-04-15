@@ -29,7 +29,7 @@ sheetNew = wbNew.active
 # Copy and set title from original sheet
 sheetNew.title = title
 
-# The following solution to the problem is created intentionally to not use provided insert methods from openpyxl modules. This gave me a better understanting of performing actions on sheets and cells. Second version of this program will cover much easier approach by using the mentioned functions.
+# The following solution to the problem is created intentionally to not use provided insert method from openpyxl modules. This gave me a better understanting of performing actions on sheets and cells. Second version of this program will cover much easier approach by using the mentioned function.
 
 # Read every cell in row
 for rowNum in range(1, sheet.max_row + blanksNumber):
