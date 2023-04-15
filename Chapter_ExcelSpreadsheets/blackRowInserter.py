@@ -34,7 +34,7 @@ sheetNew.title = title
 # Read every cell in row
 for rowNum in range(1, sheet.max_row + blanksNumber):
     # Read every cell in column
-    for columnNum in range(1, sheet.max_column):
+    for columnNum in range(1, sheet.max_column + 1):
         # Save present cell from original sheet to variable
         presentCell = sheet.cell(row=rowNum, column=columnNum).value
             
