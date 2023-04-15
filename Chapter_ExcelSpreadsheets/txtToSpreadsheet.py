@@ -11,7 +11,7 @@ if len(sys.argv) < 2:
 wb = openpyxl.Workbook()
 sheet = wb.active
 
-# Create list to store cells values
+# Create list to store files content
 fileContents = []
 
 # Read and open files one by one
