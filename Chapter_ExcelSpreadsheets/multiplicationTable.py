@@ -1,4 +1,4 @@
-# multiplicationTable.py - Creates a 6x6 table with multiplication of numbers
+# multiplicationTable.py - Creates a table with multiplication of numbers
 
 import openpyxl, sys
 from openpyxl.styles import Font
