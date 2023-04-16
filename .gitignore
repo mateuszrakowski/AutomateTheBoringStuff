@@ -2,3 +2,5 @@
 .vscode
 credentials-sheets.json
 __pycache__/
+token-drive.pickle
+token-sheets.pickle
