@@ -1,4 +1,4 @@
-# downloadingFormsData.py - Collect list of the email addresses from Google Spreadsheets collected by Google Forms.
+# downloadingFormsData.py - Get list of the email addresses from Google Spreadsheets collected by Google Forms.
 
 import ezsheets, re, sys
 
