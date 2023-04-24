@@ -8,7 +8,7 @@ Returns:
 str: Current weather and temperature.
 """
 
-APPID = YourOpenWeatherID
+APPID = "YourOpenWeatherID"
 
 import json, requests, sys, pprint
 
