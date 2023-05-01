@@ -1,5 +1,5 @@
 '''
-Scans through email account, finds all the unsubscribe links in all emails, and automatically opens them in a browser.
+Scans through email account, finds all the unsubscribe links in all emails and automatically opens them in a browser.
 
 Usage:
 python3 autoUnsubscriber.py <gmail email address> <password>
